@@ -14,7 +14,10 @@
 \begin{document}
 \maketitle
 \begin{abstract}
+    Este projeto foca no estudo técnica de forcing, tema central da teoria dos conjuntos com aplicações nesta e em outras áreas da matemática. Serão abordados seus fundamentos, pré-requisitos e aplicações clássicas em Combinatória Infinita, como a prova da consistência da negação da hipótese do contínuo e do Axioma de Martin.
 \end{abstract}
+
+
 
 \section{Introdução}
     A Teoria dos Conjuntos, introduzida por Georg Cantor no final do século XIX, estabeleceu um arcabouço teórico rigoroso para a formalização da Matemática e a compreensão de estruturas infinitas. No início do século passado, essa teoria foi formalizada em lógica de primeira ordem, sendo ZF as mais conhecidas e utilizadas axiomatizações a teoria ZF (de Zermelo-Fraenkel) e, principalmente, sua extensão ZFC (que inclui o Axioma da Escolha).
@@ -32,7 +35,7 @@
     Forcing se transformou rapidamente em uma das mais importantes ferramentas em Teoria dos conjuntos.
     Em 1971, Solovay e Tennenbaum \cite{solovay1971iterated} adaptaram esta técnica para aplica-la de forma iterada a fim de construir um modelo de ZFC sem árvore de Suslin -- um importante objeto combinatório estudado sistematicamente desde a década de 30 cuja existência em ZFC era uma pergunta em aberto, e relacionado com o problema de classificação da reta real \cite{kurepa1935ensembles}.
 
-    O Axioma de Martin, axioma que captura certos argumentos envolvendo forcing sem fazer uso de modelos, foi introduzido e teve sua consistencia provada por Martin e Solovay em \cite{martin1970internal}, impulsionando a popularização da técnica de forcing.
+    O Axioma de Martin, axioma que captura certos argumentos envolvendo forcing sem fazer uso de modelos, foi introduzido e teve sua consistência provada por Martin e Solovay em \cite{martin1970internal}, impulsionando a popularização da técnica de forcing.
 
     O estudo das características cardinais do contínuo -- cardinais entre o primeiro cardinal não enumerável, $\aleph_1$ e o contínuo, $\mathfrak c$, que capturam propriedades do contínuo que conjuntos enumeráveis não possuem, também ganhou grande tração, sendo Forcing a principal ferramenta para provar que tais cardinais podem ser arbitrariamente grandes ou pequenos, além de distintos entre si.
     Trabalhos clássicos sobre esse tema são \cite{bartoszynski1993chichon} e \cite{miller1981some}, e surveys mais modernos sobre esse material incluem \cite{blass2009combinatorial} e \cite{douwen1984integers}. Trabalhos crescentes continuam sendo publicados em revistas de ponta (sendo, por exemplo, \cite{goldstern2019chichon} um destaque recente).
@@ -42,11 +45,11 @@
     Apesar do grande número de aplicações importantes e do amplo desenvolvimento da técnica de Forcing ao longo das décadas, forcing continua sendo um tópico denso que requer esforço e dedicação para ser aprendido e plenamente compreendido. Tal tópico não é parte do currículo regular de Matemática no Brasil, nem mesmo em um primeiro curso de Teoria Axiomática dos Conjuntos como o oferecido pelo IME-USP.
 
     Neste projeto, visamos capacitar a aluna de iniciação científica a trabalhar com técnicas de forcing a partir de um estudo guiado sistemático em que esta adquirirá os pré-requisitos restantes necessários para sua plena compreensão, estudando a seguir sua e suas aplicações básicas clássicas em detalhes (apresentadas com roupagem moderna), seguindo para aplicações mais recentes e complexas.
-    Ao final da iniciação científica, a aluna estará preparada para iniciar a leitura de artigos científicos contemporâneos da área, tendo plenas condições de participar de seminários de pós-graduação no instituto e contribuir com discussões, e poderá, futuramente, desenvolver projeto de pesquisa de na pós-graduação com potencial de impacto muito maior do que possuiria sem que a iniciação científica fosse realizada.
+    Ao final da iniciação científica, a aluna estará preparada para iniciar a leitura de artigos científicos contemporâneos da área, tendo plenas condições de participar de seminários de pós-graduação no instituto e contribuir com discussões, e poderá, futuramente, desenvolver projeto de pesquisa de pós-graduação com potencial de impacto muito maior do que possuiria sem que a iniciação científica fosse realizada.
 
     \subsection{Apresentação da candidata e do orientador}
 
-    A candidata, Luisa Costa Gualano Borsa, é estudante do Bacharelado em Matemática do IME-USP, tendo ingressado via transferência externa no segundo semestre de 2024, e atualmente cursa o equivalente ao terceiro semestre do curso.
+    A candidata, Luisa Costa Gualano Bossa, é estudante do Bacharelado em Matemática do IME-USP, tendo ingressado via transferência externa no segundo semestre de 2024, e atualmente cursa o equivalente ao terceiro semestre do curso.
     Na data de início no projeto, estará cursando o equivalente ao quarto semestre.
     A candidata tem obtido excelente desempenho nas disciplinas e demonstra grande interesse em Teoria dos Conjuntos, estando atualmente estudando os capítulos iniciais do livro \cite{hrbacek2017introduction} em formato de pré-iniciação científica junto ao orientador, também demonstrando grande interesse, dedicação e desempenho.
 
@@ -73,7 +76,7 @@
     Durante o projeto, a aluna começará a comparecer e participar de seminários de pós-graduação do IME-USP, onde poderá discutir os tópicos estudados e suas aplicações com outros alunos e professores, tendo contato, nestes seminários, com outras aplicações de Forcing e Combinatória Infinita.
 
 \section{Plano de Trabalho, Metodologia e Execução}
-    Na etapa pré-projeto, a aluna seguirá o estudo dos capítulos inicia do livro \cite{hrbacek2017introduction}, de modo a dominar a manipulação básica de ordinais, cardinais, e compreenda induções e recursões transfinitas. A atual grande dedicação, desempenho e interesse da aluna nos atuais seminários de pré-iniciação científica não deixa dúvidas ao orientador de que, ao início do projeto, estes pré-requisitos estarão supridos.
+    Na etapa pré-projeto, a aluna seguirá o estudo dos capítulos iniciais do livro \cite{hrbacek2017introduction}, de modo a dominar a manipulação básica de ordinais, cardinais, e compreenda induções e recursões transfinitas. A atual grande dedicação, desempenho e interesse da aluna nos atuais seminários de pré-iniciação científica não deixa dúvidas ao orientador de que, ao início do projeto, estes pré-requisitos estarão supridos.
 
     \subsection{Primeiros seis meses - Pré-requisitos}
     Os primeiros seis meses de projeto consistirão em um estudo direcionado sistemático aos pré-requisitos de Forcing.
@@ -86,7 +89,7 @@
         \item Teorema da completude: seja $T$ uma teoria de primeira ordem. Se $T$ é válida em todo modelo de $T$, então $T$ prova $\phi$.
     \end{itemize}
     \subsubsection{A classe dos conjuntos bem-fundados e Teoremas da Reflexão}
-    Após visitar a teoria dos modelos básica, rosseguiremos para o estudo da classe dos conjuntos bem-fundados e de formas mais gerais do Teorema da Recursão a partir do livro \cite{kunen2011set}. Para tanto, serão estudados as seções I.9 e II.1-II.5 deste livro.
+    Após visitar a teoria dos modelos básica, prosseguiremos para o estudo da classe dos conjuntos bem-fundados e de formas mais gerais do Teorema da Recursão a partir do livro \cite{kunen2011set}. Para tanto, serão estudados as seções I.9 e II.1-II.5 deste livro.
     \subsubsection{A classe dos conjuntos construtíveis}
     Após isso, prosseguiremos para o estudo da classe dos conjuntos construtíveis de Gödel, $\mathbf{L}$, e suas propriedades a partir da seção II.6 do livro \cite{kunen2011set}. Tais resultados incluem o fato de que $\mathbf L$ é o menor modelo interno de ZF, e que valem o Axioma da Escolha a Hipótese Generalizada do Contínuo em $\mathbf L$.
     \subsection{Últimos seis meses - Forcing}
@@ -102,9 +105,9 @@
 
     As seções IV.5-IV.8 introduzem resultados adicionais, que serão estudados parcialmente ou completamente a depender do tempo disponível e do direcionamento desejado pela aluna.
 
-    As seções V.1-V.4 introduzem o forcing iterado, seus resultados teóricos mais básicos e a demonstração do Axioma de Martin. Nesta etapa, a depender o tempo disponível e interesse da aluna, poderemos estudar aplicações do Axioma de Martin em Combinatória Infinita ou outras áreas da matemática.
+    As seções V.1-V.4 introduzem o forcing iterado, seus resultados teóricos mais básicos e a demonstração do Axioma de Martin. Nesta etapa, a depender do tempo disponível e interesse da aluna, poderemos estudar aplicações do Axioma de Martin em Combinatória Infinita ou outras áreas da matemática.
 
-    As seções V.5-V.7 introduzem resultados adicionais, que serão estudados parcialmentea depender do tempo disponível e do direcionamento desejado pela aluna.
+    As seções V.5-V.7 introduzem resultados adicionais, que serão estudados parcialmente a depender do tempo disponível e do direcionamento desejado pela aluna.
 
     Caso houver tempo, poderão, ao invés de resultados redigidos nas seções IV.5-IV.8 e V.5-V.7, serem estudados artigos científicos modernos que sejam de interesse da aluna naquele momento e que apliquem ou se relacionem com as técnicas aprendidas.
 
@@ -113,13 +116,15 @@
 
     O orientador indicará, periodicamente, alguns exercícios e teoremas presentes no texto para ter suas resoluções ou demonstrações digitadas pela aluna a fim de serem apresentados no relatório final do projeto.
 
-    O conteúdo a ser estudado pelo projeto é denso e complexo, mas o interesse e desempenho da aluna demonstram que ela é apta para realiza-lo.
+    O conteúdo a ser estudado pelo projeto é denso e complexo, mas o interesse e desempenho da aluna, demonstrados em disciplinas e nos seminários de pré-iniciação científica, certificam que ela é apta para realizá-lo.
     Além disso, a experiência do orientador com estes textos e com o tema garantem que a aluna terá o suporte necessário para tirar suas dúvidas, de modo que acredita-se que ela terá progresso substancialmente maior e mais rápido e mais profundo do que caso teria se estudasse os textos como auto-didata.
 
     \subsection{Forma de análise dos resultados}
     O orientador indicará, periodicamente, alguns exercícios e teoremas presentes no texto para ter suas resoluções ou demonstrações digitadas pela aluna a fim de serem apresentados no relatório final do projeto. O progresso da aluna poderá ser avaliado pelo seus relatórios.
+    
+    Buscaremos a oportunidade de apresentar os resultados estudados em simpósios, seminários ou congressos.
 
-    Espera-se que, ao final, aluna esteja preparada para iniciar a leitura de artigos científicos contemporâneos da área, tendo plenas condições de participar de seminários de pós-graduação no instituto, e podendo, futuramente, desenvolver projeto de pesquisa de na pós-graduação com potencial de impacto muito maior do que possuiria sem que a iniciação científica fosse realizada.
+    Espera-se que, ao final, a aluna esteja preparada para iniciar a leitura de artigos científicos contemporâneos da área, tendo plenas condições de participar de seminários de pós-graduação no instituto, e podendo, futuramente, desenvolver projeto de pesquisa de pós-graduação com potencial de impacto muito maior do que possuiria sem que a iniciação científica fosse realizada.
 \bibliographystyle{plain}
 \bibliography{bibliografia.bib}
 \end{document}
